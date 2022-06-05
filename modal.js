@@ -20,7 +20,7 @@
     
     let targets = document.getElementsByClassName('modal-btn');
     for(let i = 0; i < targets.length; i++) {
-        targets[i].addEventListener('click', function () {this.classList.toggle('show-modal')})
+        targets[i].addEventListener('click', function () {modal.classList.toggle('show-modal')})
     }
 
 
